@@ -3,13 +3,13 @@ import requests
 
 app = Flask(__name__)
 
-API_URL = ""
+API_URL = "https://hello-cloud4.onrender.com/ziyaretciler"
 
 HTML = """
 <!doctype html>
 <html>
 <head>
-    <title>ZEYNEP KILIÇ</title>
+    <title>Mikro Hizmetli Selam!</title>
     <style>
         body { font-family: Arial; text-align: center; padding: 50px; background: #eef2f3; }
         h1 { color: #333; }
